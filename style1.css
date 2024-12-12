@@ -1,0 +1,124 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color:  #FADDDD;;
+    color: black;
+}
+
+header {
+
+   background-color: #FADDDD;
+    color: black;
+    pad: 10px;
+    text-align: center;
+}
+
+header h1 {
+margin: 0;
+}
+
+ nav ul {
+    list-style: none;
+    padding: 0;
+ }
+
+  nav ul li {
+ display: inline;
+ margin-right: 15px;
+  }
+
+  nav ul li a {
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+  }
+
+nav ul li a :hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 20px;
+    background-color: aliceblue;
+    margin: 20px 0;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color: rgb(11, 9, 11);
+}
+
+.section img {
+    max-width: 100;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid rgb(255, 228, 233);
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color:rgb(255, 228, 233);
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: aliceblue;
+}
+ 
+footer {
+    background-color: rgb(255, 228, 233);
+    color: rgb(26, 24, 24);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    text-align: center; /* Centra el logo */
+    padding: 20px; /* Espacio alrededor del logo */
+}
+
+.logo {
+    max-width: 150px; /* Limita el tamaño máximo del logo */
+    height: auto; /* Mantiene las proporciones del logo */ 
+    margin-right: 500%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 100px;  /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 5px;  /* Espacio entre el logo y el nombre */
+}
+
+

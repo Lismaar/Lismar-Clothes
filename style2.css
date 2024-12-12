@@ -1,0 +1,61 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 228, 233);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.Productos {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.producto {
+    border: 1px solid  rgb(255, 176, 191);
+padding: 10px;
+margin: 10px;
+text-align: center;
+flex: 20px;
+box-sizing: border-box;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: rgb(255, 228, 233);
+    color: rgb(26, 24, 24);
+    text-align: center;
+    padding: 5;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
